@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cursos.component.css']
 })
 export class CursosComponent implements OnInit {
+  nomePortal: string = "http://google.com"
+  cursos: string[] = ['PHP', 'JAVA', "Python", "Angular"]
 
   constructor() { }
 
